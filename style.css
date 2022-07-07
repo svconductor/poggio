@@ -38,8 +38,6 @@ a.nav:active {
     margin-top: 50px;
 }
 
-
-
 /* table */
 table {
     width: 60%;
@@ -49,13 +47,23 @@ table {
     font-size: 0.8rem;
 }
 
+table.margin {
+    margin-top: 50px;
+    border-collapse: collapse;
+    border-top: 1px dotted gray;
+}
+
 /* td {
     border: 1px solid rgb(190, 190, 190);
-}
-*/
+} */
 
 .feature {
     width: 415px;
+    vertical-align: top;
+}
+
+.options {
+    vertical-align: top;
 }
 
 .infobox {
@@ -76,11 +84,17 @@ table {
 }
 
 .url {
-    font-size: smaller;
     text-align: right;
-    padding-right: 20px;
 }
 
-td+img {
-    margin-top: 20px;
+.url a {
+    outline: none;
+    background-color: yellow;
+    text-decoration: underline;
+    padding: 4px 4px;
+    font-size: smaller;
+}
+
+td>img {
+    margin-top: 30px;
 }
