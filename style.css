@@ -9,7 +9,7 @@ html {
     gap: 0.625%;
 }
 
-a {
+a.nav {
     flex: 1;
     text-decoration: none;
     outline: none;
@@ -18,17 +18,69 @@ a {
     color: black;
 }
 
-a:link,
-a:visited,
-a:focus {
+a.nav:link,
+a.nav:visited,
+a.nav:focus {
     background: lightgray;
 }
 
-a:hover {
+a.nav:hover {
     background: orange;
 }
 
-a:active {
+a.nav:active {
     background: red;
     color: white;
+}
+
+.wrapper {
+    overflow: auto;
+    margin-top: 50px;
+}
+
+
+
+/* table */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+/* td {
+    border: 1px solid rgb(190, 190, 190);
+}
+*/
+
+.feature {
+    width: 415px;
+}
+
+.infobox {
+    height: 40px;
+}
+
+.name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.size {
+    background-color: #78be20;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    width: 120px;
+}
+
+.url {
+    font-size: smaller;
+    text-align: right;
+    padding-right: 20px;
+}
+
+td+img {
+    margin-top: 20px;
 }
