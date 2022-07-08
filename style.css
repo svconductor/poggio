@@ -41,8 +41,11 @@ a.nav:active {
 /* table */
 table {
     width: 60%;
-    /* border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200); */
+    margin-bottom: 50px;
+    /*-------
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    --------*/
     letter-spacing: 1px;
     font-size: 0.8rem;
 }
@@ -53,10 +56,11 @@ table.margin {
     border-top: 1px dotted gray;
 }
 
-/* td {
+/*------
+td {
     border: 1px solid rgb(190, 190, 190);
-} */
-
+}
+------*/
 .feature {
     width: 415px;
     vertical-align: top;
